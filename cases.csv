@@ -1,0 +1,304 @@
+2479442; Authenticated user can able to access manage account page; 3; GQA-15064
+2625409; Authenticated user can able to change Email; 3; GQA-15064
+2625509; Authenticated user can able to change password from Account Tab screen; 3; GQA-15064
+2479457; Premier episode tile appears on Continue watching rail when a new episode is added to the service; 3; GQA-2826
+2479463; Fully watched show is not displayed in Continue watching rail; 3; GQA-2826
+2479678; Continue watching rail asset list is profile specific; 3; GQA-2826
+2623337; -Validate Badging Signaling Newness  for New Series - CD16; 3; GQA-2819
+2623239; -Validate Badging Signaling Newness  for a show/series with one new episode - CD-16; 3; GQA-2819
+2623338; -Validate Badging Signaling Newness on a Show/Series with more than one New Episodes  - CD-16; 3; GQA-2819
+2623240; -Validate Badging Signaling Newness  for New Show/Movie for global release date within 4 days - CD16; 3; GQA-2819
+2623671; -Validate Badging Signaling  for New Show/Movie for global release date with NULL value - CD16; 3; GQA-2819
+2623241; -Validate Badging Signaling Newness  for Trailer - CD16; 3; GQA-2819
+2623220; -Validate Badging Signaling Newness  for Podcast Trailer - CD16; 3; GQA-2819
+2623242; -Validate Badging Signaling Newness for Podcast New Episode - CD-16; 3; GQA-2819
+2479448; Validate My List rail asset has no limit; 3; GQA-2818
+2620746; Validating an asset is being added/queued in the order in which it was added; 3; GQA-2818
+2611052; Validate MY List rail update behaviour on Home Page; 3; GQA-2818
+2614914; Authenticated user resumes Live/VOD content from My List; 3; GQA-2818
+2618646; Authenticated New User -Validating no My List rail on Home Page; 3; GQA-2818
+2606570; Parental Controls - Content Ratings Page (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2606359; Parental Controls - Change Content Ratings when editing Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2606956; Parental Controls - Change Kids Profile Ratings when adding Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2672831; Parental Controls - Change Content ratings on web device and verify persistence on other device; 3; GQA-2601, GQA-2805, GQA-2532
+2606571; Parental Controls - Exit Kids Profile Page; 3; GQA-2601, GQA-2805, GQA-2532, GQA-2674
+2606600; Parental Controls - Enter Parent Code - validate <result> Parent Code; 3; GQA-2601, GQA-2805, GQA-2532
+2611030; Parental Controls - Create Parent Code when adding Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611122; Parental Controls - Create Parent code when editing Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2648440; Parental Controls - Reset Parent code from settings (web and mobile only); 3; GQA-2805
+2626067; Parental Controls - KPE is Off when adding new profile; 3; GQA-2601, GQA-2805, GQA-2532
+2611114; Parental Controls - Activate existing Parent Code when adding new Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611043; Parental Controls - Edit Parent Code (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2626017; Parental Controls - Edit Parent Code - Edit unsuccessful (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611042; Parental Controls - Turn off Kid-proof Exit; 3; GQA-2601, GQA-2805, GQA-2532
+2621712; Restart playback of an asset from CDP with viewing progress; 3; GQA-2787,GQA-2784,GQA-2801,GQA-2799,GQA-2683,GQA-2778
+2622339; Play trailer from episode tile Play CTA in kebab menu; 3; GQA-2796
+2622340; Play episode from episode tile Play CTA in kebab menu; 3; GQA-2796
+2620975; Series CDP - Cold Start state metadata; 3; GQA-2793,GQA-2798,GQA-2794,GQA-2778
+2623131; Profile PIN creation on the Edit Profile Page; 3; GQA-2788
+2621907; PIN prompt when try to access to a locked profile; 3; GQA-2056, GQA-2248, GQA-2788
+2621706; Movie CDP - Cold Start state metadata; 3; GQA-2786
+2479214; Authenticated user navigates back to My Stuff > My List tab post interaction; 3; GQA-2755, GQA-2760
+2479732; View asset details from My Stuff > My List tab asset tile info modal; 3; GQA-2755, GQA-2760
+2479875; Navigate to Content Details Page from My Stuff > My List tab asset tile info modal; 3; GQA-2755, GQA-2760
+2611053; Validate My Stuff>>MY List rail update behaviour; 3; GQA-2760
+2479214; Authenticated user navigates back to My Stuff > My List tab post interaction; 3; GQA-2755, GQA-2760
+2479732; View asset details from My Stuff > My List tab asset tile info modal; 3; GQA-2755, GQA-2760
+2479875; Navigate to Content Details Page from My Stuff > My List tab asset tile info modal; 3; GQA-2755, GQA-2760
+2478599; Validate onboarding for a new user via Home screen; 3; GQA-2139, GQA-2731
+2621429; Verify CTA buttons landing pages from home screen; 3; GQA-2139, GQA-2731, GQA-2759
+2618649; Complete cancellation for DTC user who has never taken a save offer; 3; GQA-2720, GQA-2096, GQA-2086, GQA-2135
+2653666; Cancellation Confirmation Page; 3; GQA-2720, GQA-2096, GQA-2086, GQA-2135
+2621219; Initiate but do not complete cancellation; 3; GQA-2720
+2606575; Complete cancellation for user who has already taken a save offer and therefore is not eligible for a save offer; 3; GQA-2720, GQA-2096, GQA-2086, GQA-2135 ,GQA-14404
+2622181; Validate Grids dont have a minimum amount of tiles required; 3; GQA-2718
+2622175; Validate Grids do not have horizontal overflow; 3; GQA-2718
+2614919; User can see Inline video stop when scrolling out of view; 3; GQA-2712
+2625273; Privacy Policy - Email compose window and hyperlinks in Privacy Policy page; 3; GQA-2675, GQA-1621
+2606571; Parental Controls - Exit Kids Profile Page; 3; GQA-2601, GQA-2805, GQA-2532, GQA-2674
+2605704; Shortcuts - Playback - Volume UP; 3; GQA-2666
+2605705; Shortcuts - Playback - Volume DOWN; 3; GQA-2666
+2605706; Shortcuts - Playback - Mute; 3; GQA-2666
+2605707; Shortcuts - Back Button; 3; GQA-2666
+2623339; -Validate Badging Signaling Newness for "Coming Soon" events - CD150; 3; GQA-2654
+2621157; Validate Badging signaling "Upcoming" in Sports CD-150; 3; GQA-2654
+2624152; Front End Consent - Footer - DNSos link in footer; 3; GQA-2652
+2624153; Front End Consent - Footer - Ad Choices; 3; GQA-2652
+2625238; Front End Consent - Footer - Privacy Policy; 3; GQA-2652
+2625239; Front End Consent - Footer - Terms of Use; 3; GQA-2652
+2624521; Front End Consent - Buy Flow - New User - Privacy Policy,Term Of Use , Marketing Consent; 3; GQA-2652
+2625116; Front End Consent - CA or CO user - GPC detected; 3; GQA-2652
+2625117; Front End Consent - DNSoS persistence from unauth to auth state; 3; GQA-2652
+2625118; Front End Consent - DNSoS persistence after creating account; 3; GQA-2652
+2625237; Front End Consent - Marketing email consent persistence across devices; 3; GQA-2652
+2625189; Front End Consent - Settings - DNSoS opt-out and re-opt in; 3; GQA-2652
+2625192; Front End Consent - Settings - Change a consent preference - BEAM and Affiliates - Email confirmation; 3; GQA-2652
+2625402; Verify that Kids Profile Kids Mode option is read-only on Mobile/CTV; 3; GQA-2650
+2625403; Verify that user cannot toggle "On Kids" mode for an adult profile; 3; GQA-2650
+2653248; Audio Description - Audio Description Content chip is selected; 3; GQA-2642
+2653254; Audio description – Outro genre rail includes a tile for Audio Description; 3; GQA-2642
+2653258; Audio Description – Search genre rail includes a tile for Audio Description; 3; GQA-2642
+2480330; Authenticated User can play "Extras" on <assetType> content details page; 3; GQA-2616,GQA-1873
+2621773; Playback from the season episode list episode tile; 3; GQA-2616,GQA-2609
+2621773; Playback from the season episode list episode tile; 3; GQA-2616,GQA-2609
+2606350; Default Kids Profile - First login: Ratings banner; 3; GQA-2607
+2617214; Default Kids Profile - First login: Default ratings; 3; GQA-2607
+2617215; Default Kids Profile - Migrated user; 3; GQA-2607
+2606570; Parental Controls - Content Ratings Page (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2606359; Parental Controls - Change Content Ratings when editing Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2606956; Parental Controls - Change Kids Profile Ratings when adding Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2672831; Parental Controls - Change Content ratings on web device and verify persistence on other device; 3; GQA-2601, GQA-2805, GQA-2532
+2606571; Parental Controls - Exit Kids Profile Page; 3; GQA-2601, GQA-2805, GQA-2532, GQA-2674
+2606600; Parental Controls - Enter Parent Code - validate <result> Parent Code; 3; GQA-2601, GQA-2805, GQA-2532
+2611030; Parental Controls - Create Parent Code when adding Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611122; Parental Controls - Create Parent code when editing Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2626067; Parental Controls - KPE is Off when adding new profile; 3; GQA-2601, GQA-2805, GQA-2532
+2611114; Parental Controls - Activate existing Parent Code when adding new Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611043; Parental Controls - Edit Parent Code (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2626017; Parental Controls - Edit Parent Code - Edit unsuccessful (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611042; Parental Controls - Turn off Kid-proof Exit; 3; GQA-2601, GQA-2805, GQA-2532
+2482391; Add / Remove from My list on <pageName>; 3; GQA-2561
+2620749; Validating Kids Profile adds/removes assets to My List; 3; GQA-2561
+2625170; Update Payment Method – Lapsed User (Reworked); 3; GQA-2287, GQA-2549
+2648517; Update Payment Method – Lapsed User; 3; GQA-2287, GQA-2549
+2606570; Parental Controls - Content Ratings Page (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2606359; Parental Controls - Change Content Ratings when editing Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2606956; Parental Controls - Change Kids Profile Ratings when adding Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2672831; Parental Controls - Change Content ratings on web device and verify persistence on other device; 3; GQA-2601, GQA-2805, GQA-2532
+2606571; Parental Controls - Exit Kids Profile Page; 3; GQA-2601, GQA-2805, GQA-2532, GQA-2674
+2606600; Parental Controls - Enter Parent Code - validate <result> Parent Code; 3; GQA-2601, GQA-2805, GQA-2532
+2611030; Parental Controls - Create Parent Code when adding Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611122; Parental Controls - Create Parent code when editing Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2626067; Parental Controls - KPE is Off when adding new profile; 3; GQA-2601, GQA-2805, GQA-2532
+2611114; Parental Controls - Activate existing Parent Code when adding new Kids profile (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611043; Parental Controls - Edit Parent Code (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2626017; Parental Controls - Edit Parent Code - Edit unsuccessful (web only); 3; GQA-2601, GQA-2805, GQA-2532
+2611042; Parental Controls - Turn off Kid-proof Exit; 3; GQA-2601, GQA-2805, GQA-2532
+2618637; Post Purchase confirmation screen data validation and scan QR code; 3; GQA-2177, GQA-2340
+2482572; Redeem code New user enters code which requires payment method - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2614864; Redeem code New user enters code which doesn't require payment - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2482594; Redeem code New user skips to enter code - Email Deeplink Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2482596; Redeem code Lapsed User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623070; Redeem code Abandoner User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623069; Redeem code Lapsed User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623071; Redeem code Abandoner User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340,GQA-2224, GQA-2109
+2621514; Parental Controls Direct Playback from Search; 3; GQA-2339, GQA-2337
+2621515; Parental Controls Direct Playback from Continue Watching; 3; GQA-2339, GQA-2337
+2621516; Parental Controls Direct Playback from Hero Component; 3; GQA-2339, GQA-2337
+2621519; Parental Controls Direct Playback from Details Page (PDP); 3; GQA-2339, GQA-2337
+2621818; Parental Controls Accessibility Screen Reader; 3; GQA-2339, GQA-2337
+2621819; Parental Controls Accessibility Keyboard Compatibility; 3; GQA-2339, GQA-2337
+2621847; Parental Controls Accessibility: Actions are Unimpeded; 3; GQA-2339, GQA-2337
+2481404; User can connect to Chromecast device outside the player; 3; GQA-2329
+2674775; User can see Chromecast device list dynamically update; 3; GQA-2329
+2623652; User can connect to Chromecast device from the player; 3; GQA-2329
+2623665; User can control Chromecast playback with Sender Micro Controller and disconnect; 3; GQA-2329
+2681444; User can adjust Volume with Sender hardware buttons (Android - required, other platforms - optional); 3; GQA-2329
+2623667; User can control Chromecast playback with Sender Mini Controller; 3; GQA-2329
+2623668; User can control Chromecast playback with Sender Expanded Controller; 3; GQA-2329
+2482551; Authenticated user can play another <assetType> asset after closing the Casting session; 3; GQA-2329
+2482889; Validate Casting is possible from one Sender device at a time; 3; GQA-2329
+2482891; Device going to sleep does not interrupt Casting playback; 3; GQA-2329
+2681445; WiFi toggle does not interrupt Casting playback; 3; GQA-2329
+2484380; Minimizing app on casting device without interrupting Casting playback; 3; GQA-2329
+2622603; Deep Link to video player as unauth user; 3; GQA-2328
+2617284; Value Loss Page - Scrolling; 3; GQA-2321
+2653667; Value Loss Page - Interacting with Plan Switch Message; 3; GQA-2321
+2653668; Value Loss Page - Interacting with Recently Added Message; 3; GQA-2321
+2653669; Value Loss Page - Interacting with Personalized Recommendations Message; 3; GQA-2321
+2611061; Verify Metadata is hidden during scrubbing/seeking; 3; GQA-2315
+2611140; Verify general metadata; 3; GQA-2315
+2620870; Verify Content Badges; 3; GQA-2315
+2480288; User can select Up Next timer with Autoplay on and credits of <CreditLength>; 3; GQA-2303, GQA-2072
+2480287; User can ignore Up Next timer with Autoplay on and credits of <CreditLength>; 3; GQA-2303, GQA-2072
+2621145; User can cancel 1st and ignore 2nd Up Next timer with Autoplay on and Long credits; 3; GQA-2303, GQA-2072
+2621173; User can cancel 1st and 2nd Up Next timers with Autoplay on and Long credits; 3; GQA-2303, GQA-2072
+2621154; User can cancel Up Next timer with Autoplay on and Short credits; 3; GQA-2303, GQA-2072
+2621155; User can select Up Next button with Autoplay off and credits of <CreditLength>; 3; GQA-2303, GQA-2072
+2480289; User can ignore 1st and select 2nd Up Next button with Autoplay off and Long credits; 3; GQA-2303, GQA-2072
+2621151; User can ignore 1st and cancel 2nd Up Next button with Autoplay off and Long credits; 3; GQA-2303, GQA-2072
+2621324; User can ignore Up Next button with Autoplay off and Short credits; 3; GQA-2303, GQA-2072
+2621537; User can pause and resume content after Up Next component appears; 3; GQA-2303, GQA-2072
+2621583; User can navigate to MLP after Up Next component appears (CTV); 3; GQA-2303, GQA-2072
+2482421; User can see Up Next component even when content is rewinded; 3; GQA-2303, GQA-2072
+2621588; User can scrub/ff into Up Next timer; 3; GQA-2303, GQA-2072
+2621491; User can dismiss timer and bring back Up Next component; 3; GQA-2303, GQA-2072
+2618634; User can select a tile from the End Card during credits; 3; GQA-2302, GQA-2270
+2620868; User can return to player from the End Card during credits; 3; GQA-2302, GQA-2270
+2617818; User sees the back button on the End Card upon the end of credits; 3; GQA-2302, GQA-2270
+2618635; User sees the back button on the End Card if no credits are available; 3; GQA-2302, GQA-2270
+2618935; User can select a suggested item on the End Card if no credits are available; 3; GQA-2302, GQA-2270
+2482572; Redeem code New user enters code which requires payment method - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2614864; Redeem code New user enters code which doesn't require payment - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2482594; Redeem code New user skips to enter code - Email Deeplink Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2482596; Redeem code Lapsed User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623070; Redeem code Abandoner User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623069; Redeem code Lapsed User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623071; Redeem code Abandoner User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340,GQA-2224, GQA-2109
+2621549; DTC Choose How to Pay - Screen Validation (Reworked); 3; GQA-2287
+2621590; DTC Update Payment Method  - Screen Validation (Reworked); 3; GQA-2287
+2483105; DTC Payment Field Validation (Reworked); 3; GQA-2287
+2611073; DTC Add Payment Method – PayPal (Reworked); 3; GQA-2287
+2611077; DTC Update Payment Method – Credit Card to PayPal (Reworked); 3; GQA-2287
+2621685; DTC Update Payment Method – Credit Card to Debit Card  (Reworked); 3; GQA-2287
+2611079; DTC Update Payment Method – PayPal to Credit Card  (Reworked); 3; GQA-2287
+2625170; Update Payment Method – Lapsed User (Reworked); 3; GQA-2287, GQA-2549
+2648517; Update Payment Method – Lapsed User; 3; GQA-2287, GQA-2549
+2648595; Payment - Screen Validation; 3; GQA-2287
+2648546; Update Payment Method; 3; GQA-2287
+2622334; Verify Arkose challenge for account creation- reworked and merged in account creation testcase; 3; GQA-2272
+2648522; Validate New user sign up Happy Path flow; 3; GQA-2266, GQA-2177, GQA-2089, GQA-2091, GQA-2076, GQA-2077, GQA-2078, GQA-2725, GQA-2189, GQA-2112, GQA-2272, GQA-2051
+2605629; Verify Autoplay Preview  behaviour when option sets to ON; 3; GQA-2271
+2605630; Verify Autoplay Preview behaviour when option sets to OFF; 3; GQA-2271
+2606056; Verify that settings persist across profiles; 3; GQA-2271
+2622402; Profiles & Globalization Experience - Forgot PIN - User forgot PIN but knows account password; 3; GQA-2263
+2622398; Profiles & Globalization Experience - Edit PIN; 3; GQA-2257
+2622399; Profiles & Globalization Experience - Edit PIN - Reentering PIN with keyboard; 3; GQA-2257
+2622401; Profiles & Globalization Experience - Edit PIN on CTV; 3; GQA-2257
+2622408; User is already paying through another provider and cannot link; 3; GQA-2242,GQA-2204,GQA-1999
+2622410; User  already has an account with BEAM while trying to link with partner; 3; GQA-2242,GQA-2204,GQA-1999
+2622331; Verify Arkose challenge for password reset - Reworked and merged in to forgot passwrod test case; 3; GQA-2230
+2622057; [Access] [Generic Sign In] [Desktop & Mobile] Reset Your Password; 3; GQA-2160, GQA-2230
+2614975; Redeem code New user - Plan Picker validation; 3; GQA-2224, GQA-2109
+2614969; Redeem Code - View Plans CTA functionality; 3; GQA-2224, GQA-2109
+2482572; Redeem code New user enters code which requires payment method - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2614864; Redeem code New user enters code which doesn't require payment - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2482594; Redeem code New user skips to enter code - Email Deeplink Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2623036; Redeem code for User with a Beam Account - Plan Picker validation; 3; GQA-2224, GQA-2109
+2623042; Redeem Code for User with a BEAM account- View Plans CTA functionality; 3; GQA-2224, GQA-2109
+2482596; Redeem code Lapsed User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623070; Redeem code Abandoner User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623069; Redeem code Lapsed User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623071; Redeem code Abandoner User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340,GQA-2224, GQA-2109
+2623045; Redeem code for Lapsed or Abandoner User who is not logged in the app - Email flow; 3; GQA-2224, GQA-2109
+2623046; Redeem code for Lapsed or Abandonner User who is logged in the app - Email flow; 3; GQA-2224
+2482598; Redeem code for Existing User who is not logged in the app - Email Upgrade flow; 3; GQA-2224, GQA-2109
+2623114; Redeem code for Existing User who is not logged in the app and Has a Pending subscription- Email Error flow; 3; GQA-2224, GQA-2109
+2623081; Redeem code for Existing User who is not logged in the app - Email Downgrade flow; 3; GQA-2224, GQA-2109
+2614807; Redeem code for Existing User who is logged in the app - Email Upgrade flow; 3; GQA-2224, GQA-2109
+2623084; Redeem code for Existing User who is logged in the app - Email Downgrade flow; 3; GQA-2224, GQA-2109
+2482595; Redeem code Existing active user Upgrade flow; 3; GQA-2224, GQA-2109
+2483784; Redeem code Existing active user Downgrade flow; 3; GQA-2224, GQA-2109
+2623089; Redeem code Existing active Free Trial User - Downgrade or the Same Plan (no payment); 3; GQA-2224, GQA-2109
+2623098; Redeem code Existing active Free Trial User - Downgrade or the Same Plan (with payment); 3; GQA-2224, GQA-2109
+2623097; Redeem code Existing active Free Trial User - Upgrade; 3; GQA-2224, GQA-2109
+2623107; [Access] [MVPD Re-authentication] [Desktop & Mobile] One click path to provider IDP; 3; GQA-2199
+2622252; Verifying Arkose challenge during sign in - Reworked and merged into sign in testcase; 3; GQA-2196
+2621732; [Access] [Generic Sign In] New or Existing User Authorized for BEAM with 1st Party Credentials; 3; GQA-2054, GQA-2196
+2622878; Deep Link to video player as signed user; 3; GQA-2184
+2622057; [Access] [Generic Sign In] [Desktop & Mobile] Reset Your Password; 3; GQA-2160, GQA-2230
+2488466; [Partner Activation] Partner Linking - Validation of Create Account page; 3; GQA-2143
+2602557; DTC Payment Failure Notifications Banner; 3; GQA-2115
+2623724; DTC Payment Failure Notifications Subscription; 3; GQA-2115
+2648522; Validate New user sign up Happy Path flow; 3; GQA-2266, GQA-2177, GQA-2089, GQA-2091, GQA-2076, GQA-2077, GQA-2078, GQA-2725, GQA-2189, GQA-2112, GQA-2272, GQA-2051
+2617259; DTC New User Purchase Flow through Sign Up; 3; GQA-2112
+2489266; DTC Choose Your Plan - Screen Validation (Reviewed); 3; GQA-2112
+2614975; Redeem code New user - Plan Picker validation; 3; GQA-2224, GQA-2109
+2614969; Redeem Code - View Plans CTA functionality; 3; GQA-2224, GQA-2109
+2482572; Redeem code New user enters code which requires payment method - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2614864; Redeem code New user enters code which doesn't require payment - Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2482594; Redeem code New user skips to enter code - Email Deeplink Happy Path flow; 3; GQA-2290,GQA-2340, GQA-2224, GQA-2109
+2623036; Redeem code for User with a Beam Account - Plan Picker validation; 3; GQA-2224, GQA-2109
+2623042; Redeem Code for User with a BEAM account- View Plans CTA functionality; 3; GQA-2224, GQA-2109
+2482596; Redeem code Lapsed User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623070; Redeem code Abandoner User Enters Code Which Doesn't Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623069; Redeem code Lapsed User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340, GQA-2224, GQA-2109
+2623071; Redeem code Abandoner User Enters Code Which Require Payment - flow; 3; GQA-2290, GQA-2340,GQA-2224, GQA-2109
+2623045; Redeem code for Lapsed or Abandoner User who is not logged in the app - Email flow; 3; GQA-2224, GQA-2109
+2482598; Redeem code for Existing User who is not logged in the app - Email Upgrade flow; 3; GQA-2224, GQA-2109
+2623114; Redeem code for Existing User who is not logged in the app and Has a Pending subscription- Email Error flow; 3; GQA-2224, GQA-2109
+2623081; Redeem code for Existing User who is not logged in the app - Email Downgrade flow; 3; GQA-2224, GQA-2109
+2614807; Redeem code for Existing User who is logged in the app - Email Upgrade flow; 3; GQA-2224, GQA-2109
+2623084; Redeem code for Existing User who is logged in the app - Email Downgrade flow; 3; GQA-2224, GQA-2109
+2482595; Redeem code Existing active user Upgrade flow; 3; GQA-2224, GQA-2109
+2483784; Redeem code Existing active user Downgrade flow; 3; GQA-2224, GQA-2109
+2623089; Redeem code Existing active Free Trial User - Downgrade or the Same Plan (no payment); 3; GQA-2224, GQA-2109
+2623098; Redeem code Existing active Free Trial User - Downgrade or the Same Plan (with payment); 3; GQA-2224, GQA-2109
+2623097; Redeem code Existing active Free Trial User - Upgrade; 3; GQA-2224, GQA-2109
+2621977; Free trial - user updates payment and lands on account management page; 3; GQA-2098
+2621971; User successfully switched to promotional offer; 3; GQA-2097
+2621972; User accepted promotional offer and it is in pending state; 3; GQA-2097
+2622369; User accepted promotional offer and cancel subscription while it is in pending state; 3; GQA-2097
+2621973; User cancelled their subscription; 3; GQA-2097
+2618649; Complete cancellation for DTC user who has never taken a save offer; 3; GQA-2720, GQA-2096, GQA-2086, GQA-2135
+2653666; Cancellation Confirmation Page; 3; GQA-2720, GQA-2096, GQA-2086, GQA-2135
+2606575; Complete cancellation for user who has already taken a save offer and therefore is not eligible for a save offer; 3; GQA-2720, GQA-2096, GQA-2086, GQA-2135 ,GQA-14404
+2621523; DTC Change Plan - Screen Validation (Reworked); 3; GQA-2079
+2620860; DTC Change Plan - Upgrade Plan (Reworked); 3; GQA-2079
+2621161; DTC Change Plan - Downgrade Plan (Reworked); 3; GQA-2079
+2621162; DTC Change Plan -  Crossgrade Plan (Reworked); 3; GQA-2079
+2622064; Profiles & Globalization Experience - Avatar Selection CTV - back navigation - previous screen; 3; GQA-1485, GQA-2066
+2622065; Profiles & Globalization Experience - Avatar Selection CTV - back navigation - top of screen; 3; GQA-1485, GQA-2066
+2478625; Deletion of a user profile; 3; GQA-2062
+2625511; Profile PIN Deletion; 3; GQA-2056
+2621907; PIN prompt when try to access to a locked profile; 3; GQA-2056, GQA-2248, GQA-2788
+2621732; [Access] [Generic Sign In] New or Existing User Authorized for BEAM with 1st Party Credentials; 3; GQA-2054, GQA-2196
+2614860; [Access] [MVPD Sign In (3rd Party Credentials)] New or Existing User Authorized for BEAM; 3; GQA-2052, GQA-2725,GQA-2141
+2648522; Validate New user sign up Happy Path flow; 3; GQA-2266, GQA-2177, GQA-2089, GQA-2091, GQA-2076, GQA-2077, GQA-2078, GQA-2725, GQA-2189, GQA-2112, GQA-2272, GQA-2051
+2622607; Deep Link to Plan picker screen for UnAuth User; 3; GQA-2010
+2479640; Authenticated user can able to access Help section; 3; GQA-2003
+2621194; Verifying  15 minutes window for OTP challenge; 3; GQA-1990, GQA-2158
+2479996; Authenticated user can able to change Email; 3; GQA-1990
+2620879; Authenticated user can able to sign out individual devices from manage device screen; 3; GQA-1988
+2622497; Access Info; 3; GQA-1987
+2617757; Search does not return content for a kid’s profile when out of rating threshold; 3; GQA-2639, GQA-2737, GQA-2618
+2617757; Search does not return content for a kid’s profile when out of rating threshold; 3; GQA-2639, GQA-2737, GQA-2618
+2617757; Search does not return content for a kid’s profile when out of rating threshold; 3; GQA-2639, GQA-2737, GQA-2618
+2479638; Authenticated user can able to access Subscription page; 3; GQA-2170
+2621694; IAP from Settings Tests *** WIP ***; 3; GQA-2170
+2622904; DTC Provider Subscription Details (Reworked); 3; GQA-2170
+2653216; Provider Subscription Details; 3; GQA-2170
+2621907; PIN prompt when try to access to a locked profile; 3; GQA-2056, GQA-2248, GQA-2788
+2621177; Validate User control interaction for Immersive Hero; 3; GQA-1660, GQA-2525
+2621182; Validate Auto Rotate interaction for Immersive Hero; 3; GQA-1660, GQA-2525
+2621188; Validate Dpad down action on Immersive Hero; 3; GQA-1660, GQA-2525
+2621955; Save offer - Offer is shown; 3; GQA-2093
+2621956; Save offer - Offer is not shown; 3; GQA-2093
+2614882; Verify order of displayed languages; 3; GQA-2316
+2614888; Verify that audio/text preference does not persist across profiles; 3; GQA-2316
+2614979; Verify Audio/Caption settings fallback to default settings if unavailable for selected content; 3; GQA-2316
+2614980; Verify audio and CC will be  uniquely identified with <tag>; 3; GQA-2316
+2611050; Verify user action trigger the chrome to be hidden; 3; GQA-2301
+2611051; Verify video state when user enters the player; 3; GQA-2301
+2611057; Verify user can FF/Back video 10 seconds with a Single Click; 3; GQA-2301
+2617217; Verify user can FF/Back video using timeline; 3; GQA-2301

@@ -1,5 +1,5 @@
 const axios = require("axios");
-// const fs = require("fs");
+const fs = require("fs");
 require("dotenv").config();
 const constants = require("./constants");
 const jiraIDs = require("./jira.json");
@@ -11,18 +11,35 @@ const suite_id = "23470";
 const regions = [constants.regions.core, constants.regions.us];
 
 (async () => {
+  // let { data } = await getPlans();
+  // console.log(data);
   let tests = (await getAllTests()).map((arr) => arr.data.cases).flat();
   tests = filterTests(tests); // removing any tests outside the region and platform
-  // removing any test cases that we specifically want to exclude
-  for (excluded in excludedIDs) {
-    tests.splice(tests.indexOf(excluded), 1);
-  }
-  console.log("tests added: " + tests.length);
 
-  await createTestPlan(tests.map((test) => test.id));
-
-  // TODO: Create csv file with all test cases
+  // // removing any test cases that we specifically want to exclude
+  excludedIDs.forEach((excluded) => {
+    let index = tests.indexOf(excluded);
+    if (index > -1) {
+      tests.splice(tests.indexOf(excluded), 1);
+    }
+  });
+  console.log("tests added (including dups): " + tests.length);
+  createCSV(tests);
+  // await createTestPlan(tests.map((test) => test.id));
 })();
+
+function createCSV(tests) {
+  let str = "";
+  tests.forEach((test) => {
+    str += `${test.id}; ${test.title}; ${test.priority_id}; ${test.refs}\n`;
+  });
+
+  fs.writeFile("./cases.csv", str, (err) => {
+    if (err) {
+      console.error(err);
+    }
+  });
+}
 
 function filterTests(tests) {
   return tests.filter(removeExtras);
@@ -55,9 +72,9 @@ async function getTestCasesFromJiraId(id) {
       },
       params: {
         priority_id: [
-          constants.priorities.p2,
+          // constants.priorities.p2,
           constants.priorities.p1,
-          constants.priorities.p0,
+          // constants.priorities.p0,
         ],
         refs: id,
         type_id: [constants.testTypes.regression],
@@ -80,6 +97,18 @@ async function createTestPlan(cases) {
         },
       ],
     },
+    {
+      auth: {
+        username: process.env.TEST_RAIL_USERNAME,
+        password: process.env.TEST_RAIL_API_KEY,
+      },
+    }
+  );
+}
+
+async function getPlans() {
+  return await axios.get(
+    `https://discovery.testrail.io/index.php?/api/v2/get_tests/99014`,
     {
       auth: {
         username: process.env.TEST_RAIL_USERNAME,
